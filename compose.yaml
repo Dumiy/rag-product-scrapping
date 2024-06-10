@@ -1,0 +1,16 @@
+services:
+  mongodb:
+    build: ./mongodb/
+    ports:
+      - "27017:27017"
+  scrapper:
+    build: ./scrapper/
+    volumes:
+        - ./Llama-2-7B-Chat-GGUF:/scrapper/model
+    ports:
+      - "5001:5001"
+    develop:
+      watch:
+        - action: sync
+          path: ./scrapper/
+          target: ./scrapper/

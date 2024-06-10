@@ -1,0 +1,13 @@
+fastapi
+beautifulsoup4
+pymongo
+llama-cpp-python==0.2.75
+motor
+langchain
+langchain-community==0.2.0
+langchain-chroma
+langchain_huggingface
+sentence_transformers
+unstructured
+chromadb
+tiktoken
