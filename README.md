@@ -95,7 +95,7 @@ Score: 0.5732780597653842
 ```
 
 
-Now we used 5000k product introduced into MongoDB (after scrapping)
+Now we used 5000 product introduced into MongoDB (after scrapping)
 ```
 python -q askq.py "Chair with Steel Metal, Textilene Fabric"
 
