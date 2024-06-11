@@ -8,7 +8,7 @@ Applying RAG for web scrapping
 - - receive csv in products.json (Shopify Format) and scraps product pages
 - database
 - - MongoDB with data entries for document saving
-- - ChromaDB to save embeddings for informancation retrieval
+- - ChromaDB to save embeddings for information retrieval
 
 The files rag, askq we're created to use the GPU, calling them from CLI, not in container
 - - rag.py contains embedding creations and insertion to chromadb
